@@ -37,8 +37,7 @@ export default function MyApp(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Notus NextJS by Creative Tim</title>
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+        <title>Votemaster - A closer relationship between individuals and politics</title>
       </Head>
       <Layout>
         <Component {...pageProps} />
