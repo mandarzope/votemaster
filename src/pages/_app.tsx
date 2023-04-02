@@ -17,11 +17,11 @@ Router.events.on("routeChangeStart", (url) => {
   );
 });
 Router.events.on("routeChangeComplete", () => {
-  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition") as any);
   document.body.classList.remove("body-page-transition");
 });
 Router.events.on("routeChangeError", () => {
-  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition") as any);
   document.body.classList.remove("body-page-transition");
 });
 
